@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikashdeep Prasad - Resume</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm 14mm;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 9.6pt;
+      line-height: 1.38;
+      color: #1a202c;
+      background: #ffffff;
+    }
+    a {
+      color: #1a56db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 14px;
+      border-bottom: 1.5px solid #2d3748;
+      padding-bottom: 8px;
+    }
+    .name {
+      font-size: 20pt;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #0f172a;
+      margin: 0 0 4px;
+      text-transform: uppercase;
+    }
+    .tagline {
+      font-size: 10.5pt;
+      font-weight: 600;
+      color: #334155;
+      margin: 0 0 6px;
+    }
+    .contact-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 6px 10px;
+      font-size: 8.8pt;
+      color: #475569;
+    }
+    .contact-bar span {
+      display: inline-flex;
+      align-items: center;
+    }
+    .sep {
+      color: #94a3b8;
+    }
+    .section {
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: 10pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #0f172a;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 2px;
+      margin: 0 0 6px;
+    }
+    .summary-text {
+      margin: 0;
+      text-align: justify;
+      color: #334155;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3px;
+    }
+    .skills-item {
+      display: flex;
+      gap: 6px;
+      font-size: 9.3pt;
+    }
+    .skills-label {
+      font-weight: 700;
+      color: #1e293b;
+      min-width: 135px;
+      flex-shrink: 0;
+    }
+    .skills-val {
+      color: #334155;
+    }
+    .entry {
+      margin-bottom: 8px;
+    }
+    .entry:last-child {
+      margin-bottom: 0;
+    }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+    .entry-title {
+      font-size: 9.8pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .entry-subtitle {
+      font-size: 9pt;
+      font-weight: 600;
+      color: #475569;
+    }
+    .entry-meta {
+      font-size: 8.8pt;
+      color: #64748b;
+      font-weight: 500;
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .entry-links {
+      font-size: 8.5pt;
+      font-weight: 500;
+      margin-left: 6px;
+    }
+    ul.bullets {
+      margin: 2px 0 0 16px;
+      padding: 0;
+      list-style-type: square;
+    }
+    ul.bullets li {
+      margin-bottom: 2px;
+      color: #334155;
+      text-align: justify;
+    }
+    .badge {
+      display: inline-block;
+      background: #f1f5f9;
+      color: #334155;
+      font-size: 7.8pt;
+      font-weight: 600;
+      padding: 1px 5px;
+      border-radius: 4px;
+      border: 1px solid #e2e8f0;
+      margin-left: 4px;
+    }
+    @media print {
+      body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="name">Vikashdeep Prasad</h1>
+    <p class="tagline">Full-Stack & EMR Software Developer &bull; Unreal Engine C++ Developer</p>
+    <div class="contact-bar">
+      <span>Indore, MP 452010</span>
+      <span class="sep">&bull;</span>
+      <span><a href="tel:+916206733818">+91 62067 33818</a></span>
+      <span class="sep">&bull;</span>
+      <span><a href="mailto:prasadmanthan07@gmail.com">prasadmanthan07@gmail.com</a></span>
+      <span class="sep">&bull;</span>
+      <span><a href="https://github.com/viqSTAR" target="_blank">github.com/viqSTAR</a></span>
+      <span class="sep">&bull;</span>
+      <span><a href="https://www.linkedin.com/in/vikashdeep-prasad-1b27a72bb/" target="_blank">linkedin.com/in/vikashdeep-prasad</a></span>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2 class="section-title">Professional Summary</h2>
+    <p class="summary-text">
+      Full-stack and C++ software developer with hands-on experience engineering Electronic Medical Records (EMR/EHR) platforms, AI SaaS systems, and real-time Unreal Engine 5 gameplay mechanics. Experienced in leveraging <strong>Claude AI</strong> workflows for accelerated architecture design, clean code generation, and test-driven debugging while ensuring strict data privacy, HIPAA-ready auditability, and production reliability.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skills-item">
+        <span class="skills-label">Healthcare & EMR:</span>
+        <span class="skills-val">Electronic Medical Records (EMR/EHR), Clinical Documentation, e-Prescriptions, Patient Consent, Audit Logs</span>
+      </div>
+      <div class="skills-item">
+        <span class="skills-label">Languages:</span>
+        <span class="skills-val">TypeScript, JavaScript, C++, Python, SQL, C#</span>
+      </div>
+      <div class="skills-item">
+        <span class="skills-label">Web & Backend:</span>
+        <span class="skills-val">Node.js, Express, PostgreSQL, Prisma ORM, Redis, REST APIs, FastAPI, Next.js, React, React Native</span>
+      </div>
+      <div class="skills-item">
+        <span class="skills-label">AI & Development Tools:</span>
+        <span class="skills-val">Claude AI Workflows, Visual Studio, Git/GitHub, Docker, OpenAI API, RunPod/GPU, Electron, Postman</span>
+      </div>
+      <div class="skills-item">
+        <span class="skills-label">Game Development:</span>
+        <span class="skills-val">Unreal Engine 5.8 (C++ Combat Systems, Weapon Sockets, Control Rig IK, Niagara VFX), Unity (2D/C#)</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Selected Projects</h2>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Health Buddy &mdash; EMR & Telehealth Platform</span>
+          <span class="entry-subtitle">| TypeScript, Express, Prisma, PostgreSQL, Redis, React Native, Visual Studio</span>
+          <span class="entry-links">[<a href="https://github.com/viqSTAR/healthbuddy" target="_blank">GitHub Repo</a>]</span>
+        </div>
+      </div>
+      <ul class="bullets">
+        <li>Built an Electronic Medical Records (EMR/EHR) platform supporting doctors, medical practices, patients, pharmacies, and labs with role-based access control (RBAC).</li>
+        <li>Engineered secure clinical document management, visit scheduling, electronic prescription generation, and immutable medical audit trails.</li>
+        <li>Implemented patient consent governance, protected health record delivery, and verified provider workflows using Prisma ORM and PostgreSQL.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">LinguaMic &mdash; Production AI Voice Studio SaaS</span>
+          <span class="entry-subtitle">| FastAPI, Express, PostgreSQL, Docker, RunPod GPU</span>
+          <span class="entry-links">[<a href="https://linguamic.com/" target="_blank">Live Product</a>] &bull; [<a href="https://github.com/viqSTAR/linguamictts" target="_blank">GitHub Repo</a>]</span>
+        </div>
+      </div>
+      <ul class="bullets">
+        <li>Built and launched a production AI voice studio featuring streaming text-to-speech (TTS), speech-to-text (STT), 8 studio voices, and credit billing.</li>
+        <li>Architected a decoupled microservice: containerized FastAPI AI service for GPU inference paired with Express business logic and PostgreSQL.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Project VIVA &mdash; Unreal Engine 5 C++ Combat System</span>
+          <span class="entry-subtitle">| C++, Unreal Engine 5.8, Enhanced Input, Control Rig IK</span>
+          <span class="entry-links">[<a href="https://github.com/viqSTAR" target="_blank">GitHub Profile</a>]</span>
+        </div>
+      </div>
+      <ul class="bullets">
+        <li>Engineered hands-on C++ character combat and gameplay systems without relying on AI-generated gameplay code to master engine fundamentals.</li>
+        <li>Implemented real-time melee combat state machines, dynamic weapon socket attachment (<code>RightHandSocket</code>), and custom collision delegates.</li>
+        <li>Developed procedural foot placement inverse kinematics (IK) using Control Rig with ground raycasting and pitch/roll slope angle adaptation.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">AI MVP &mdash; Full-Stack AI Productivity Application</span>
+          <span class="entry-subtitle">| JavaScript, OpenAI API, Express, MongoDB, Clerk Auth, Cloudinary</span>
+          <span class="entry-links">[<a href="https://github.com/viqSTAR/ai_mvp" target="_blank">GitHub Repo</a>]</span>
+        </div>
+      </div>
+      <ul class="bullets">
+        <li>Shipped an AI productivity application with authenticated user flows, multi-format document generation (PDF/DOCX), and API rate limiting.</li>
+        <li>Integrated Clerk authentication, MongoDB persistence, and Cloudinary media pipelines with clean backend error reporting.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Mahalaxmi Traders &mdash; Desktop Billing & ERP System</span>
+          <span class="entry-subtitle">| Electron, Next.js, PostgreSQL, Prisma</span>
+        </div>
+      </div>
+      <ul class="bullets">
+        <li>Shipped a desktop accounting and ERP app for a building-materials dealership: customer ledgers, reserved stock inventory, and bilingual English/Hindi invoicing.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Hrite.in & Apna Ashiana &mdash; Web Agency & Client Portals</span>
+          <span class="entry-subtitle">| React, Node.js, Express, MongoDB, JWT</span>
+          <span class="entry-links">[<a href="https://www.hrite.in/" target="_blank">Hrite.in</a>] &bull; [<a href="https://www.apnaashiana.in/" target="_blank">Apna Ashiana</a>] &bull; [<a href="https://github.com/viqSTAR/hritebusiness" target="_blank">GitHub Repo</a>]</span>
+        </div>
+      </div>
+      <ul class="bullets">
+        <li>Designed and deployed production web agency and real estate client portals with protected client dashboards and responsive UI.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Freelance Full-Stack Developer</span> &mdash; <span class="entry-subtitle">Independent</span>
+        </div>
+        <span class="entry-meta">2024 &ndash; Present</span>
+      </div>
+      <ul class="bullets">
+        <li>Engineered end-to-end full-stack applications, API integrations, and database schemas for business clients and digital products.</li>
+        <li>Leveraged modern AI pair-programming workflows (Claude AI) for accelerated prototyping, code reviews, and documentation.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Game Developer (Team Project)</span> &mdash; <span class="entry-subtitle">Card Combat Game (IGDC)</span>
+        </div>
+        <span class="entry-meta">Team Project</span>
+      </div>
+      <ul class="bullets">
+        <li>Contributed to a 6-person Unreal Engine 5 card combat game presented at the India Game Developer Conference.</li>
+        <li>Built Niagara VFX (ribbon effects, lightning, projectile trails, explosions) and Blueprint UI/dialogue logic within a 20-day delivery window.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Founder & Manager</span> &mdash; <span class="entry-subtitle">G-Revolution (Esports Organisation)</span>
+        </div>
+        <span class="entry-meta">Ongoing</span>
+      </div>
+      <ul class="bullets">
+        <li>Founded and managed esports organization operations, player recruitment, brand identity, and structured trial tournaments.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Education & Additional</h2>
+    <div class="entry-header">
+      <div>
+        <span class="entry-title">B.Des &mdash; Game Design & Development</span>
+      </div>
+    </div>
+    <ul class="bullets" style="margin-top: 2px;">
+      <li><strong>Self-Directed Technical Focus:</strong> C++ programming, Unreal Engine 5 systems, full-stack web architectures, and Claude AI developer workflows.</li>
+      <li><strong>Creator, "Learn with Learner":</strong> YouTube channel publishing tutorials on game development, C++, and Blueprints.</li>
+      <li><strong>Languages:</strong> English, Hindi.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
